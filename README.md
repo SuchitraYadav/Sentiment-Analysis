@@ -37,8 +37,8 @@ The following operations are performed:
 ### 4. Feature Engineering
 In this step, the cleaned text data is transformed into numerical features using the TF-IDF vectorizer. The vectorizer converts the text into a matrix of TF-IDF features, which is then used as input for model training.
 
-Binary Label Mapping: Ratings are converted into binary labels where reviews with ratings ≥ 7 are labeled as positive (1), and those with ratings ≤ 4 are labeled as negative (0).
-TF-IDF Vectorization: The reviews are vectorized using TF-IDF, considering unigrams, bigrams, and trigrams.
+* Binary Label Mapping: Ratings are converted into binary labels where reviews with ratings ≥ 7 are labeled as positive (1), and those with ratings ≤ 4 are labeled as negative (0).
+* TF-IDF Vectorization: The reviews are vectorized using TF-IDF, considering unigrams, bigrams, and trigrams.
 
 ### 5. Model Training and Evaluation
 #### 5.1. Random Forest Classifier
